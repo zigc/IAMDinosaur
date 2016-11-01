@@ -9,12 +9,13 @@
   "author": "Ivan Seidel",
   "license": "MIT",
   "dependencies": {
-    "async": "^1.5.0",
+    "async": "^2.1.2",
     "blessed": "^0.1.81",
-    "blessed-contrib": "^2.5.2",
-    "lodash": "^3.10.1",
-    "robotjs": "^0.3.6",
-    "synaptic": "^1.0.5"
+    "blessed-contrib": "^4.5.5",
+    "debug": "^2.2.0",
+    "lodash": "^4.16.5",
+    "robotjs": "^0.4.5",
+    "synaptic": "^1.0.8"
   },
   "repository": {
     "type": "git",

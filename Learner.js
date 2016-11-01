@@ -120,7 +120,7 @@ Learn.selectBestGenomes = function (selectN){
     selected.pop();
   }
 
-  Learn.ui.logger.log('Fitness: '+_.pluck(selected, 'fitness').join(','));
+  Learn.ui.logger.log('Fitness: '+_.map(selected, 'fitness').join(','));
 
   return selected;
 }
